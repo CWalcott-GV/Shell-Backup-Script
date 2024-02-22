@@ -24,4 +24,6 @@ If it exists and is a regular file (-f), it copies the file to the ~/backup dire
 If it exists and is a directory (-d), it recursively copies the directory and its contents to the ~/backup directory.
 If it doesn't exist, it prints a message indicating that the file or directory does not exist.
 
-**Backup Directory Creation:** Finally, it checks if the ~/backup directory exists. If it doesn't, it creates it.
+**Backup Directory Creation:** Finally, it checks if the ~/backup directory exists. If it doesn't, it creates it."
+
+
