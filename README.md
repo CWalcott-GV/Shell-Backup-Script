@@ -4,9 +4,7 @@ Demonstration of different arguments that can be passed. Also showing a "--help"
 
 Use follows syntax **./backup file1 file2 file3 [options]** where file1 - 3 are files to be copied into new directory "backup" that will be created in same directory.
 
-from ChatGPT: 
-
-"This shell script appears to be designed to handle backup operations. Let's break down the script's functionality:
+Let's break down the script's functionality:
 
 **Argument Handling:** The script starts by checking if there are any arguments passed to it. If there are no arguments ($# is the number of arguments), it prints a message indicating that at least one argument is required and exits with an error code.
 
