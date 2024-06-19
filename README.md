@@ -2,9 +2,8 @@ Objective was to create a custom shell script that creates backups of files in a
 
 Demonstration of different arguments that can be passed. Also showing a "--help" command to show how user is supposed to work.
 
-Use follows syntax **./backup file1 file2 file3 [options]** where file1 - 3 are files to be copied into new directory "backup" that will be created in same directory.
+Use follows syntax **./backup file1 file2 file3 [options]** where file1 - 3 are files to be copied into new directory "backup" that will be created in same directory (Suggested to move 'backup' directory after backup completes, or code it yourself, I'm not your boss).
 
-Let's break down the script's functionality:
 
 **Argument Handling:** The script starts by checking if there are any arguments passed to it. If there are no arguments ($# is the number of arguments), it prints a message indicating that at least one argument is required and exits with an error code.
 
